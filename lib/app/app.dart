@@ -12,7 +12,7 @@ class PkkApp extends StatelessWidget {
       routes: {
         '/': (context) => const SplashScreen(),
         '/home': (context) => const HomePage(),
-        '/detail': (context) => const DetailPage(),
+        '/form': (context) => const FormPage(),
       },
       useInheritedMediaQuery: true,
       locale: DevicePreview.locale(context),
